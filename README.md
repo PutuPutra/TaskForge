@@ -15,7 +15,7 @@ A RESTful API built with Laravel for managing projects and tasks with comprehens
 
 -   PHP 8.2+
 -   Composer
--   MySQL/MariaDB or SQLite
+-   MySQL
 -   Laravel 11.x
 
 ## Installation
