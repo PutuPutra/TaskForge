@@ -60,7 +60,7 @@ class Project extends Model
                 ->get();
         }
 
-        // MySQL/MariaDB
+        // MySQL
         return Task::where('status', 4)
             ->whereYear('updated_at', $year)
             ->select(DB::raw('MONTH(updated_at) as month'), DB::raw('COUNT(*) as count'))
